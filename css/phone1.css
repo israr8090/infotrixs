@@ -1,0 +1,184 @@
+@media only screen and (max-width: 415px) {
+    #hide-415px{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 622px) {
+    /* --------------------header-------------- */
+    /* -----------------left-side header------------------------- */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #c47a7a;
+        /* padding: 6px 6px; */
+        top: 0;
+    }
+    .left-side-header {
+        display: flex;
+        /* background-color: red; */
+        /* border: 2px solid black; */
+        align-items: center;
+
+    }
+    .left-side-header ul {
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid black; */
+        margin-left: 2px;
+    }
+    .left-side-header ul li a {
+        display: flex;
+        align-items: center;
+        /* margin: 5px 8px; */
+        position: relative;
+    }
+    .left-side-header ul li a img {
+        border-radius: 50%;
+        width: 20px;
+    }
+    /* -------------------- */
+    /* --------right-side header-------- */
+    .right-side-header {
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+    }
+    .right-side-header ul {
+        /* border: 1px solid red; */
+        margin-right: 8px;
+    }
+    .right-side-header ul li a {
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        margin: 2px 5px;
+        position: relative;
+        /* width: 145px; */
+    }
+    .right-side-header ul li a img {
+        border-radius: 50%;
+        width: 20px;
+    }
+    /* ----------end header-------- */
+
+    /* -----------left-navbar---------- */
+    .left-navbar {
+        /* display: none; */
+        /* border: 3px solid black; */
+        position: absolute;
+        left: 33px;
+
+    }
+    .left-navbar img {
+        border-radius: 50%;
+        width: 25px;
+        filter: invert(#0e0f0f);
+    }
+    .left-navbar span {
+        font-size: 1rem;      
+    }
+
+
+
+    /* --------------right-navbar--------------- */
+     .right-navbar {
+        border:2px solid black;
+        border-radius: 10px;
+        margin-right: 10px;
+        background: rgb(87, 114, 212);
+    }
+    .right-navbar a {
+        padding: 0 0;
+    }
+    .right-navbar-appoinment {
+        font-size: 0.8rem;
+        padding: 10px;
+        font-family: 'Young Serif', serif;
+    }
+
+    /* ---------------info-card-left--- */
+    .card-info-left {
+        /* border: 2px solid black; */
+        width: 70vw;
+        margin: 15px 20px;
+    }
+
+    .card-info-mid {
+        border: 2px solid black;
+        width: 70vw;
+        margin: 15px 20px;
+    }
+
+    .card-info-right {
+        border: 2px solid black;
+        width: 70vw;
+        margin: 15px 20px;
+    }
+
+    .card-left-main-btn {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(187, 165, 207);
+        width: 50vw;
+        margin: 40px;
+        /* margin-left: 90px; */
+        padding: 10px;
+    }
+    .card-mid-main-btn {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(187, 165, 207);
+        width: 50vw;
+        margin: 40px;
+        /* margin-left: 90px; */
+        padding: 10px;
+    }
+    .card-right-main-btn {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: rgb(187, 165, 207);
+        width: 50vw;
+        margin: 40px;
+        /* margin-left: 90px; */
+        padding: 10px;
+    }
+    /* ---------------end card-info-- */
+
+    .main-second {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        /* background-color: #04AA6D; */
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 100vw;
+        height: 113vh;
+    }
+    .main-second-image {
+        /* background-color: red; */
+        /* border: 2px solid black; */
+        width: 55vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 36px 35px;
+        margin-top: 0px;
+
+    }
+    .main-second-content {
+        background-color: rgb(246, 240, 240);
+        border-radius: 20px;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        width: 90vw;
+        margin-left: 9px;
+        /* margin-top:-50px */
+    }
+
+}
