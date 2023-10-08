@@ -280,7 +280,7 @@ header {
     /* display: flex; */
     position: absolute;
     top: 86px;
-    background: url(./images/backgroun-madical1.jpg) no-repeat center center/cover;
+    background: url("../images/backgroun-madical1.jpg") no-repeat center center/cover;
     height: 510px;
     width: 100%;
     z-index: -1;
